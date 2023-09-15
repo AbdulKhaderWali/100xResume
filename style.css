@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: rgb(255, 254, 254);
+}
+
+ul{
+    list-style-type: none;
+}
+
+header{
+    text-align: center;
+}
+
+.name{
+    margin-bottom: 2px;
+    color: #ef5a3c;
+}
+
+.designation{
+    margin-bottom: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    margin-bottom: 5px;
+    padding: 7px;
+    background-color: #ef5a3c;
+    border-radius: 10px;
+    color: white;
+}
+
+.companies{
+    margin-left: 20px;
+}
+
+.company{
+    margin: 15px;
+    text-decoration: underline;
+}
+
+.points{
+    margin-left: 20px;
+    line-height: 0.8cm;
+    margin-bottom: 10px;
+}
+
+.sub-heading{
+    background-color: #ef5a3c;
+    border: 2px solid #ffbaac;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+section{
+    margin: 15px 15px;
+}
+
+.skills{
+    margin-left: 20px;
+}
+
+.education{
+    margin-left:20px;
+    line-height: 0.8cm;
+}
+
+footer{
+    text-align: center;
+    margin: 10px;
+}
